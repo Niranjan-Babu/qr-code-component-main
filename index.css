@@ -1,0 +1,44 @@
+body{
+    background: hsl(212, 45%, 89%);
+    
+}
+@font-face{
+    font-family: spicemen;
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+.card{
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 72vh;
+    width: 24vw;
+    border-radius: 10px;
+    background-color: white;
+}
+.qr{
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    margin: auto;
+    border-radius: 10px;
+    height: 44vh;
+    width: 22vw;
+}
+h2{
+    position: relative;
+    top: 5vh;
+    margin: auto;
+    height: 8vh;
+    width: 20vw;
+    text-align: center;
+}
+h5{
+    position: relative;
+    top: 8vh;
+    margin: auto;
+    width: 20vw;
+    text-align: center;
+    font-weight: 400;
+}
